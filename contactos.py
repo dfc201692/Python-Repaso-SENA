@@ -1,8 +1,6 @@
-def contactos (**lista):
-    pass
+contactos = {"amor": 3153205050, "papa":3112036798,"mama":3123375493}
 
-    for clave in lista:
-        print(clave, ' - ', lista[clave])
-
-
-contactos(amor=3123375493, camila=3165489276, mama=315246879)
+contactos["Instructor"] = 3154867951
+contactos["papa"]=3015648956
+print(contactos["Instructor"])
+print(contactos.setdefault("amor"))
